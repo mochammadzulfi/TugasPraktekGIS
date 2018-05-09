@@ -1,0 +1,38 @@
+Log Book
+Tanggal 27 Maret 2018
+-	Ada masalah pada saat instalasi mapnik pada Ubuntu 16.04 pada script
+” sudo apt-get install libmapnik libmapnik-dev mapnik-utils python-mapnik” ternyata  scrip “libmapnik”nya gak boleh double dan yang benar “sudo apt-get install libmapnik-dev mapnik-utils python-mapnik”
+Tanggal 03 April 2018
+-	Ada masalah pada script
+“basinsLabels = mapnik.TextSymbolizer(mapnik.Expression('[NAME]'), 'DejaVu Sans Bold',2,mapnik.Color('black'))
+basinsLabels.halo_fill = mapnik.Color('yellow')
+basinsLabels.halo_radius = 2
+r.symbols.append(basinsLabels)”
+tidak kebaca kalaw pakai UBUNTU akhirnya beralih pada pada WINDOWS
+Tanggal 10 April 2018
+-	Ada masalah saat mulai menggunakan phpPgAdmin
+-	Permasalahannya karena versi xampp nya tidak support dengan PostgreSQL 9.6  harus update ke versi 3.2,sehingga phpPgAdminnya tidak bisa dipanggil di localhost.
+Tanggal 17 April 2018
+-	Ada masalah pada saat isntalasi GIS desktop
+-	Permasalahannya ketika harus pindah versi GIS 3.0 yang utamanya menggunakan versi 2.8
+-	Saat instalsi success cuman tidak bias digunakan
+-	Sehingga harus update windows7 SP1 lalu bisa.
+Lock Book
+Tanggal 27 Maret 2018
+-	Ada masalah pada saat instalasi mapnik pada Ubuntu 16.04 pada script
+” sudo apt-get install libmapnik libmapnik-dev mapnik-utils python-mapnik” ternyata  scrip “libmapnik”nya gak boleh double dan yang benar “sudo apt-get install libmapnik-dev mapnik-utils python-mapnik”
+Tanggal 03 April 2018
+-	Ada masalah pada script
+“basinsLabels = mapnik.TextSymbolizer(mapnik.Expression('[NAME]'), 'DejaVu Sans Bold',2,mapnik.Color('black'))
+basinsLabels.halo_fill = mapnik.Color('yellow')
+basinsLabels.halo_radius = 2
+r.symbols.append(basinsLabels)”
+UBUNTU akhirnya beralih pada pada WINDOWS
+Tanggal 10 April 2018
+-	Ada masalah saat mulai menggunakan phpPgAdmin
+-	Permasalahannya karena versi xampp nya tidak support dengan PostgreSQL 9.6  harus update ke versi 3.2,sehingga phpPgAdminnya tidak bisa dipanggil di localhost.
+Tanggal 17 April 2018
+-	Ada masalah pada saat isntalasi GIS desktop
+-	Permasalahannya ketika harus pindah versi GIS 3.0 yang utamanya menggunakan versi 2.8
+-	Saat instalsi success cuman tidak bias digunakan
+-	Sehingga harus update windows7 SP1 lalu bisa.
