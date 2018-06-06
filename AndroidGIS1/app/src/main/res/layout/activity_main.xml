@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gis1.android.myapplication.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:hint="Hari ini" />
+
+    <EditText
+        android:id="@+id/etLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:hint="Masukkan Lokasi" />
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvLat"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="217dp" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/tvLong"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="40dp"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="170dp" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/label"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:hint="Hari Ini"-->
+        <!--android:textAllCaps="true"-->
+        <!--android:textSize="20sp" />-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/etLokasi"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:gravity="center_horizontal"-->
+        <!--android:hint="Masukkan Lokasi"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="50dp" />-->
+
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="51dp" -->
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px" />
+
+    <Button
+        android:id="@+id/btntampil"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Tampilkan Long Lat"/>
+
+
+    <Button
+        android:id="@+id/btnmapn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Narotama"/>
+
+    <Button
+        android:id="@+id/btnmapi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Itats"/>
+
+    <TextView
+    android:id="@+id/tvLat"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_horizontal"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="217dp" />
+
+    <TextView
+    android:id="@+id/tvLong"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_horizontal"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="170dp" />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:hint="Mochammad Zulfi / 04315017"/>
+
+</LinearLayout>
+
+
+    <!--<Button-->
+        <!--android:id="@+id/btntampil"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:text="Tampilkan Long Lat"-->
+        <!--tools:layout_editor_absoluteX="0dp"-->
+        <!--tools:layout_editor_absoluteY="111dp"/>-->
+    <!--&lt;!&ndash;android:layout_editor_absoluteX="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_editor_absoluteY="134dp"/>&ndash;&gt;-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnmapn"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="43dp"-->
+        <!--android:text="Narotama"/>-->
+    <!--&lt;!&ndash;tools:layout_editor_absoluteX="0dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;tools:layout_editor_absoluteY="199dp"&ndash;&gt;-->
+
+
+</android.support.constraint.ConstraintLayout>
