@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0037ff</color>
+    <color name="colorPrimaryDark">#0044ff</color>
+    <color name="colorAccent">#535353</color>
+
+    <color name="light_blue">#00aaff</color>
+    <color name="center">#0088ff</color>
+    <color name="overlay_blue">#009eed</color>
+
+    <color name="top_color">#007fef</color>
+    <color name="mid_color">#ffffff</color>
+    <color name="bottom_color">#0088ff</color>
+
+    <color name="ripple">#9f9f9f</color>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006fff">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="2dp"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="#ffffff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:background="@drawable/ripple_effect">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--<TextView-->
+                <!--android:id="@+id/latku"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="#000000"-->
+                <!--android:text="latku"/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/longku"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textColor="#000000"-->
+                <!--android:text="longku"/>-->
+                <ImageView
+                    android:id="@+id/gbkp"
+                    android:layout_width="75dp"
+                    android:layout_height="82dp"
+                    android:background="@drawable/polision"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="7dp">
+
+                <TextView
+                    android:id="@+id/nmkp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Kantor Polisi"
+                    android:textSize="18dp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/alamatkp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="3dp"
+                    android:text="Alamat"
+                    android:textSize="14dp"
+                    android:textColor="#000000"/>
+
+                <TextView
+                    android:id="@+id/jarak"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jarak"
+                    android:textSize="10dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/txt_telepon"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No. Telepone"
+                    android:textSize="10dp"
+                    android:layout_marginTop="3dp"
+                    android:gravity="right"
+                    android:textColor="#000000"/>
+                <!--  <TextView
+                     android:id="@+id/latlok"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textColor="#000000"
+                     android:text="latlok"/>
+                 <TextView
+                     android:id="@+id/longlok"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:textColor="#000000"
+                     android:text="longlok"/>-->
+            </LinearLayout>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
